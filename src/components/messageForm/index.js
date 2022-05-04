@@ -30,9 +30,9 @@ const MessageForm = (props) => {
   return (
     <form className="message-form" onSubmit={handleSubmit}>
       <input
+        type="text"
         className="message-input"
-        placeholder="Send a message"
-        value={value}
+        placeholder="Send a message.."
         onChange={handleChange}
         onSubmit={handleSubmit}
       />
